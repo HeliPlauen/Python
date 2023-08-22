@@ -23,7 +23,7 @@ class CustomThread(Thread):
     def run(self):
 
         # execute a task in a loop
-        for i in range(5):
+        while True:
 
             # block for a moment
             sleep(1)
@@ -52,8 +52,9 @@ thread.start()
 sleep(5)
 
 # stop the worker thread
-print('Main stopping thread')
-event.set()
+print("Here must be SET!!!")
+#event.set()
 
 # wait for the new thread to finish
 thread.join()
+print('Main stopping thread')

@@ -1,12 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Advanced",
-    "\\Advanced\\001_Samples\\sockets",
-    "\\Advanced\\001_Samples\\sockets\\socket_twisted",
     "\\Classes",
-    "\\Classes\\005_Samples"
+    "\\Classes\\007_Samples"
   ],
-  "SelectedNode": "\\Classes\\5-recursion-1.py",
+  "SelectedNode": "\\Classes\\6-data-struktures-2.py",
   "PreviewInSolutionExplorer": false
 }

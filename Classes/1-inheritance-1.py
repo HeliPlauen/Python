@@ -23,6 +23,7 @@ print(cat2.set_size())
 
 # Child class
 class Tiger(Cat):
+
 	def set_size(self):
 		if self.cat_type == "wild":
 			self.size = "big"			
