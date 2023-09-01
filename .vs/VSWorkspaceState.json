@@ -1,9 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Classes",
-    "\\Classes\\007_Samples"
+    "\\Advanced",
+    "\\Advanced\\007_Samples",
+    "\\Advanced\\007_Samples\\example08",
+    "\\Advanced\\007_Samples\\example08\\tests",
+    "\\Advanced\\007_Samples\\example09",
+    "\\Advanced\\007_Samples\\example09\\testing"
   ],
-  "SelectedNode": "\\Classes\\6-data-struktures-2.py",
+  "SelectedNode": "\\Advanced\\007_Samples\\example6_skip.py",
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\example10",
+    "\\example10\\django_api",
+    "\\example10\\django_api\\issues",
+    "\\example10\\django_api\\issues\\tests",
+    "\\example10\\django_api\\tasks"
+  ],
+  "SelectedNode": "\\example10\\django_api\\issues\\tests\\test_integration_api.py",
+  "PreviewInSolutionExplorer": false
+}
