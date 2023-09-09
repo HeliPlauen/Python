@@ -2,12 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\Advanced",
-    "\\Advanced\\007_Samples",
-    "\\Advanced\\007_Samples\\example08",
-    "\\Advanced\\007_Samples\\example08\\tests",
-    "\\Advanced\\007_Samples\\example09",
-    "\\Advanced\\007_Samples\\example09\\testing"
+    "\\Advanced\\008_Samples"
   ],
-  "SelectedNode": "\\Advanced\\007_Samples\\example6_skip.py",
+  "SelectedNode": "\\Advanced\\008_Samples\\example5__full_examples.py",
   "PreviewInSolutionExplorer": false
 }

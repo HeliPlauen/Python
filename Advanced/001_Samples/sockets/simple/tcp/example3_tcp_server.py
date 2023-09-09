@@ -14,4 +14,4 @@ while True:
     else:
         result = client.recv(1024)
         client.close()
-        print('Message', result.decode('utf-8'))
+        print('Message:', result.decode('utf-8'))

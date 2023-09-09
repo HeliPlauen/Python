@@ -1,0 +1,44 @@
+import tkinter as tk
+
+
+class DataClass:
+    def __init__(self, data=None):
+        self.data = data
+
+class App(tk.Frame):
+    def __init__(self, master, dataobj):
+        super().__init__(master)
+        self.pack()
+
+        self.entrythingy = tk.Entry()
+        self.entrythingy.pack()
+
+        self.dataobj = dataobj
+        # Create the application variable.
+        self.contents = tk.StringVar()
+
+        # Set it to some value.
+        self.contents.set("")
+        # Tell the entry widget to watch this variable.
+        self.entrythingy["textvariable"] = self.contents
+
+        # Define a callback for when the user hits return.
+        # It prints the current value of the variable.
+        self.entrythingy.bind('<Key-Return>',
+                             self.print_contents)
+
+    def print_contents(self, event):
+        print("Hi. The current entry content is:",
+              self.contents.get())
+        self.dataobj.data = self.contents.get()
+        self.master.destroy()
+
+
+dataobj = DataClass()
+print(f"DATA1: {dataobj.data}")
+
+root = tk.Tk()
+myapp = App(root, dataobj)
+myapp.mainloop()
+
+print(f"DATA1: {dataobj.data}")
